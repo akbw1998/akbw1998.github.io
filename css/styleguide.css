@@ -1,0 +1,22 @@
+:root { 
+  --black: #000000;
+  --elm: #1a7a88;
+  --steel-blue: #1a82a5;
+  --violet-eggplant: #9b1d81;
+  --white: #ffffff;
+ 
+  --font-size-l: 34px;
+  --font-size-m: 20px;
+  --font-size-s: 18px;
+  --font-size-xs: 16px;
+ 
+  --font-family-heebo: "Heebo", Helvetica;
+  --font-family-inter: "Inter", Helvetica;
+}
+.inter-semi-bold-steel-blue-18px {
+  color: var(--steel-blue);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 600;
+}

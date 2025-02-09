@@ -1,0 +1,156 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Inter:500,700,600,400|Heebo:700");
+/* The following line is used to measure usage of this code. You can remove it if you want. */
+@import url("https://px.animaapp.com/67a90872cbb37e2c27f18d29.67a90873cbb37e2c27f18d2c.uOHiwft.hcp.png");
+
+
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.image-5 {
+  align-self: flex-end;
+  height: 24px;
+  object-fit: cover;
+  width: 112px;
+}
+
+.close {
+  color: var(--black);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-right: 15px;
+  margin-top: 19px;
+  min-height: 24px;
+  min-width: 54px;
+  white-space: nowrap;
+}
+
+.overlap-group {
+  height: 694px;
+  margin-top: 12px;
+  position: relative;
+  width: 374px;
+}
+
+.one-way {
+  color: #fff8ff;
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-weight: 700;
+  left: 136px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 15px;
+  white-space: nowrap;
+}
+
+.line-1 {
+  height: 1px;
+  left: 2px;
+  object-fit: cover;
+  position: absolute;
+  top: 631px;
+  width: 372px;
+}
+
+.line-2 {
+  height: 3px;
+  left: 14px;
+  position: absolute;
+  top: 663px;
+  width: 20px;
+}
+
+.actions {
+  left: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 651px;
+}
+
+.details {
+  left: 280px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 654px;
+}
+
+.group-1 {
+  align-items: flex-start;
+  display: flex;
+  gap: 4px;
+  height: 13px;
+  left: 255px;
+  min-width: 19px;
+  position: absolute;
+  top: 659px;
+}
+
+.ellipse-container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 13px;
+  width: 3px;
+}
+
+.ellipse-7 {
+  background-color: var(--elm);
+  border-radius: 1.41px/1.37px;
+  height: 3px;
+  width: 3px;
+}
+
+.ellipse-8 {
+  background-color: var(--elm);
+  border-radius: 1.41px/1.37px;
+  height: 3px;
+  margin-top: 3px;
+  width: 3px;
+}
+
+.ellipse-9 {
+  background-color: var(--elm);
+  border-radius: 1.41px/1.37px;
+  height: 3px;
+  margin-top: 2px;
+  width: 3px;
+}
+
+.rectangle {
+  background-color: var(--steel-blue);
+  border-radius: 2px;
+  height: 2px;
+  width: 12px;
+}
+
+.flex {
+  align-items: flex-start;
+  display: flex;
+}
