@@ -24,9 +24,11 @@ if(iPhoneTimeDiv3)
 document.addEventListener("DOMContentLoaded", function () {
    // Get the root URL dynamically
    const rootPath = window.location.origin + "/";
+   console.log("path length = ", window.location.pathname.length)
     console.log("window.location.pathname: ", window.location.pathname)
    // Check if the current page is index.html
-   if (window.location.pathname.includes("index.html")) {
+   if (window.location.pathname === "/") {
+    console.log('in here')
        const ticketImage = document.querySelector(".overlap-group1 img");
        if (ticketImage) {
            ticketImage.addEventListener("click", function () {
