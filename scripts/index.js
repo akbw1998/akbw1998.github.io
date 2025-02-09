@@ -24,10 +24,11 @@ if(iPhoneTimeDiv3)
 document.addEventListener("DOMContentLoaded", function () {
    // Get the root URL dynamically
    const rootPath = window.location.origin + "/";
+   console.log(`rootpath = ${rootPath}`)
    console.log()
    // Redirect to tickets.html when loading index.html
    if (window.location.pathname.endsWith("index.html")) {
-       window.location.href = "screens/tickets.html";
+       window.location.href = rootPath + "screens/tickets.html";
    }
 
    // Check if the current page is tickets.html
@@ -35,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
        const ticketImage = document.querySelector(".overlap-group1 img");
        if (ticketImage) {
            ticketImage.addEventListener("click", function () {
-               window.location.href = "activate-ticket.html";
+               window.location.href = rootPath + "screens/activate-ticket.html";
            });
        }
    }
